@@ -1,0 +1,11 @@
+.App{
+  display: flex;
+}
+
+.card{
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 5px;
+}
