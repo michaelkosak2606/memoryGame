@@ -1,12 +1,12 @@
 import React from "react";
 import "./MemoryGame.css";
 
-const card = props => {
+const card = ({ color, onClick }) => {
     return (
         <div
             className="card"
-            style={{ background: `${props.color}` }}
-            onClick={props.onClick}
+            style={{ background: `${color}` }}
+            onClick={onClick}
         >
         </div>
     );
