@@ -5,8 +5,8 @@ import './MemoryGame.css';
 class MemoryGame extends Component {
   state = {
     cards: [
-      { id: 0, showStatus: "hidden", guessed: false, backgroundcolor: "blue" },
-      { id: 1, showStatus: "hidden", guessed: false, backgroundcolor: "blue" },
+      { id: 0, showStatus: "hidden", guessed: false, backgroundcolor: "black" },
+      { id: 1, showStatus: "hidden", guessed: false, backgroundcolor: "black" },
       { id: 2, showStatus: "hidden", guessed: false, backgroundcolor: "red" },
       { id: 3, showStatus: "hidden", guessed: false, backgroundcolor: "red" },
       { id: 4, showStatus: "hidden", guessed: false, backgroundcolor: "aliceblue" },
